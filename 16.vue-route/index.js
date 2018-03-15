@@ -25,6 +25,11 @@ var app = new Vue({
     router: router,
     data: {
         msg: "qw"
+    },
+    method:{
+        onAdd:function () {
+            
+        }
     }
 });
 
