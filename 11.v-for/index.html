@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03-vue-instance-property</title>
+</head>
+<body>
+
+<div id="app">
+
+    <h3>集合</h3>
+    <li v-for="(student,index) in students">
+        {{school}}&nbsp;&nbsp;{{index}},{{student.name}},{{student.sex}}
+    </li>
+    <h3>对象</h3>
+    <div v-for="(value, key) in object">    {{ key }} : {{ value }}</div>
+
+    
+</div>
+
+</body>
+<script src="https://cdn.bootcss.com/vue/2.5.15/vue.js"></script>
+<script src="index.js"></script>
+
+</html>
